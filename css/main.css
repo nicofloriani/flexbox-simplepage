@@ -50,13 +50,17 @@ header {
 	align-items: center;
 	border-bottom: 3px solid #77a466;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
-	margin: 0 auto;
+	text-align: center;
+	width: 100%;
 }
 
 header h1 {
+	border-bottom: 3px solid #77a466;
 	margin: 0;
 	padding: 38px 0;
+	width: 100%;
 }
 
 header h1 span {
@@ -65,6 +69,7 @@ header h1 span {
 
 header nav {
 	padding: 46px 0;
+	width: 100%;
 }
 
 header nav ul {
@@ -73,10 +78,10 @@ header nav ul {
 }
 
 header nav ul li {
-	display: inline;
 	font-size: 0.875em;
 	font-weight: 700;
-	padding: 0 10px;
+	list-style: none;
+	padding: 10px 0;
 	text-transform: uppercase;
 }
 
@@ -90,21 +95,13 @@ header nav ul li a {
 .bottom-section {
 	align-items: center;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
-	margin: 0 auto;
-}
-
-.main-image {
-	height: auto;
 }
 
 .main-image img {
 	border-bottom: 3px solid #77a466;
 	width: 100%;
-}
-
-.main-title {
-	height: auto;
 }
 
 .main-title h2 {
@@ -123,8 +120,7 @@ header nav ul li a {
 .section-two,
 .section-three {
 	border-top: 1px solid #eee;
-	height: auto;
-	width: 33%;
+	width: 100%;
 }
 
 .section-one h3 {
@@ -138,7 +134,7 @@ header nav ul li a {
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px;
 }
 
 .menu {
@@ -168,8 +164,8 @@ footer {
 	border-top: 3px solid #eee;
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 }
 
 footer span {
